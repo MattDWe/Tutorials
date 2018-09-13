@@ -1,0 +1,7 @@
+isDigit(ch) Returns true if the specified character is a digit.
+isLetter(ch) Returns true if the specified character is a letter.
+isLetterOfDigit(ch) Returns true if the specified character is a letter or digit.
+isLowerCase(ch) Returns true if the specified character is a lowercase letter.
+isUpperCase(ch) Returns true if the specified character is an uppercase letter.
+toLowerCase(ch) Returns the lowercase of the specified character.
+toUpperCase(ch) Returns the uppercase of the specified character.

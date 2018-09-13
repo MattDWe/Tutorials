@@ -1,0 +1,15 @@
+length() Returns the number of characters in this string.
+charAt(index) Returns the character at the specified index from this string.
+concat(s1) Returns a new string that concatenates this string with string s1.
+toUpperCase() Returns a new string with all letters in uppercase.
+toLowerCase() Returns a new string with all letters in lowercase
+trim() Returns a new string with whitespace characters trimmed on both sides.
+
+equals(s1) Returns true if this string is equal to string s1.
+equalsIgnoreCase(s1) Returns true if this string is equal to string s1; it is case insensitive.
+compareTo(s1) Returns an integer greater than 0, equal to 0, or less than 0 to indicate whether this string is greater
+than, equal to, or less than s1.
+compareToIgnoreCase(s1) Same as compareTo except that the comparison is case insensitive.
+startsWith(prefix) Returns true if this string starts with the specified prefix.
+endsWith(suffix) Returns true if this string ends with the specified suffix.
+contains(s1) Returns true if s1 is a substring in this string.
