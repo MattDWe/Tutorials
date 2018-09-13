@@ -1,0 +1,47 @@
+In CMD run mysqld --initialize --console while in the bind directory
+Take note of the temp password it gives you like: fp2ybOB!xmEP
+
+Startup server
+Go into bin directory
+mysqld --console
+To shutdown Ctrl-C
+
+Start a Client
+mysql -u root -p
+Will now allow you to type sql commands directly into client
+
+Change password for superuser root
+alter user 'root'@'localhost' identified by 'password';
+
+Creating new user
+create user 'myuser'@'localhost' identified by 'password';
+grant all on *.* to 'myuser'@'localhost';
+
+Creating a table
+Ex. 
+create table Course (
+ courseId char(5),
+ subjectId char(4) not null,
+ courseNumber integer,
+ title varchar(50) not null,
+ numOfCredits integer,
+primary key (courseId)
+);
+
+Delete table
+drop table Course;
+
+Insert, update, and delete
+insert into Course (courseId, subjectId, courseNumber, title, numOfCredits)
+values ('11113', 'CSCI', '3720', 'Database Systems', 3);
+
+update tableName
+set column1 = newValue1 [, column2 = newValue2, ...]
+[where condition];
+
+delete from tableName
+[where condition];
+
+select column-list
+from table-list
+[where condition];
