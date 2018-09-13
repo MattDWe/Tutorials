@@ -1,0 +1,9 @@
+// An interface is a class like construct that contains only constants and abstract methods
+// use is "class subclass name extends superclass name implements interface name"
+// When creating an interface put that as the modifier
+// Using interfaces and the compareTo method you can compare objects in order to sort them
+// Using the interface cloneable you can implement way to clone a object
+
+A class can implement multiple interfaces but it can only extend one superclass
+For interfaces all variables must be public static final and do not contain constructors
+Abstract constructors are invoked by a subclass through constructor chaining
